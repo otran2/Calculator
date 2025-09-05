@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: Roboto, sans-serif;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    aspect-ratio: 1 / 2;
+    background-color: silver;
+    border: 3px black solid;
+    border-radius: 5%;
+}
+
+.output{
+    background-color: white;
+    margin: 2.5% 5%;
+    width: 90%;
+    height: 10%;
+    text-align: right;
+    border: 3px black solid;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 80%;
+    margin: 2.5% 5%;
+    gap: 5%;
+}
+
+.calcButton{
+    flex-grow: 1;
+    width: 20%;
+    max-height: 3em;
+    aspect-ratio: 2 / 1;
+    background-color: white;
+    border: 3px black solid;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.operator{
+    background-color: orange;
+}
