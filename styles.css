@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 80vh;
+    height: 75%;
     aspect-ratio: 1 / 2;
     background-color: silver;
     border: 3px black solid;
